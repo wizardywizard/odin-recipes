@@ -1,3 +1,31 @@
 body {
     padding: 15px;
 }
+
+.title {
+    
+    font-size: 70px;
+    background-image: linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: auto;
+    display: inline-block;
+}
+
+.recipes {
+    display: block;
+    justify-content: left;
+    padding: 30px;    
+    text-decoration: none;
+}
+
+.recipes a {
+    margin-left: 30px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+ul {
+    list-style: none;
+    font-size: 40px;
+}
