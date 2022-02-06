@@ -1,5 +1,6 @@
 body {
     padding: 15px;
+    background-color: rgb(59, 179, 11);
 }
 
 .title {
@@ -25,7 +26,43 @@ body {
     padding: 15px;
 }
 
-ul {
+.recipes li {
     list-style: none;
     font-size: 40px;
+}
+
+.food-title {
+    font-size: 50px;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    color: rgb(247, 243, 8);
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 30px;
+}
+
+ol {
+    font-size: 30px;
+}
+
+.food-img {
+    width: 400px;
+    height: 400px;
+}
+
+.instructions {
+    font-size: 30px;
+}
+
+.ingredients {
+    font-size: 30px;
 }
